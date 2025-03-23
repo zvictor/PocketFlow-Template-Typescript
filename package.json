@@ -1,0 +1,42 @@
+{
+  "name": "PocketFlow-Template-Typescript",
+  "version": "0.0.0",
+  "type": "module",
+  "license": "PRIVATE",
+  "private": true,
+  "packageManager": "pnpm@10.6.5",
+  "scripts": {
+    "test": "pnpm run test:unit",
+    "test:unit": "echo 'not implemented'; exit 1"
+  },
+  "dependencies": {
+    "@trigger.dev/core": "3.3.17",
+    "@trigger.dev/python": "3.3.17",
+    "@trigger.dev/sdk": "3.3.17",
+    "@upstash/redis": "1.34.4",
+    "dayjs": "1.11.13",
+    "execa": "9.5.2",
+    "openai": "4.89.0",
+    "pocketflowframework": "^0.1.0",
+    "tempy": "3.1.0"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "4.4.1",
+    "@std/assert": "npm:@jsr/std__assert@1.0.11",
+    "@total-typescript/ts-reset": "0.6.1",
+    "@tsconfig/node-lts": "22.0.1",
+    "@types/node": "22.13.1",
+    "ava": "6.2.0",
+    "prettier": "3.5.0",
+    "tsx": "4.19.2",
+    "type-fest": "4.34.1",
+    "zx": "8.3.2"
+  },
+  "pnpm": {
+    "updateConfig": {
+      "ignoreDependencies": [
+        "playwright"
+      ]
+    }
+  }
+}

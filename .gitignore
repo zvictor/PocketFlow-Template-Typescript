@@ -1,0 +1,21 @@
+.direnv
+.distrobox
+.venv
+.env
+.swc
+.trigger
+
+# nodejs
+node_modules
+build
+bundle
+pnpm-lock.yaml
+
+coverage
+storage
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
